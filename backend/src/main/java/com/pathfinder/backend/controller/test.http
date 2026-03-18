@@ -1,0 +1,14 @@
+### Graph Info
+GET http://localhost:8080/api/pathfinding/graph-info
+
+### Solve
+POST http://localhost:8080/api/pathfinding/solve
+Content-Type: application/json
+
+{
+  "startLat": 48.5734,
+  "startLng": 7.7521,
+  "endLat": 48.5849,
+  "endLng": 7.7649,
+  "algorithm": "ASTAR"
+}
